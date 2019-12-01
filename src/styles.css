@@ -202,37 +202,36 @@ footer a {
 }
 
 .bar {
-    border: 1px solid #dbdbdb;
+    border: 2px solid #000000;
     border-radius: 15px;
     height: 25px;
     width: 100%;
 }
 
 .bar-fill {
+    background-color: #000000;
+    border: 2px solid #FFFFFF;
     border-radius: 15px;
-    height: 25px;
+    height: 100%;
+    position: relative;
     width: 0%;
+    z-index: -1;
 }
 
 .bar-fill--1 {
     animation: fill1 3s ease-out forwards;
-    background-color: #dbdbdb;
 }
 .bar-fill--2 {
     animation: fill2 3s ease-out forwards;
-    background-color: #ababab;
 }
 .bar-fill--3{
     animation: fill3 3s ease-out forwards;
-    background-color: #ababab;
 }
 .bar-fill--4{
     animation: fill4 3s ease-out forwards;
-    background-color: #ababab;
 }
 .bar-fill--5 {
     animation: fill5 3s ease-out forwards;
-    background-color: #ababab;
 }
 
 @keyframes fill1 {
