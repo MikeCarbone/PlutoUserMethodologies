@@ -31,7 +31,7 @@ const present = () => (
             </header>
         </Headroom>
         <div className="piece">
-            <img className="logo" src="./media/plutoLogo.png" alt="Pluto" />
+            <img draggable="false" className="logo" src="./media/plutoLogo.png" alt="Pluto" />
             <h2 className="subtitle">Concept Validation & Feature Determination Through User Research</h2>
             <p className="copy title-copy">Pennoni Honors College Submission for IDM-417, Drexel University 2019</p>
         </div>
@@ -78,7 +78,7 @@ const present = () => (
             <a className="biglink" href="#desirability">Desirability Survery</a>
         </div>
         <p className="credit">Photo by Rob Curran on Unsplash</p>
-        <img alt="crowd of people" className="full-width-img" src="./media/people.jpg"></img>
+        <img draggable="false" alt="crowd of people" className="full-width-img" src="./media/people.jpg"></img>
         <div id="audience" className="piece">
             <h1 className="title">Target Audience</h1>
             <div className="tidbit">
@@ -227,7 +227,7 @@ const present = () => (
             </div>
         </div>
         <p className="credit">Word Cloud from both interviews</p>
-        <img alt="word cloud" className="full-width-img" src="./media/combinedWordCloud.svg"></img>
+        <img draggable="false" alt="word cloud" className="full-width-img" src="./media/combinedWordCloud.svg"></img>
         <div id="interview1" className="piece">
             <h1 className="title">Interviews</h1>
             <p className="copy">After conducting the screener survey, 16 participants fit our target demographic perfectly. They were within our age range, were happy to be interviewed further, concerned about privacy and wished they could form more meaningful connections on social media. Conducted over a span of three weeks, the one-on-one interviews provided great insight into our target audience’s feelings.</p>
@@ -295,16 +295,16 @@ const present = () => (
             </div>
         </div>
         <p className="credit">Empathy Maps from both interviews</p>
-        <img alt="empathy maps" className="full-width-img" src="./media/combinedEmpathyMap.jpg"></img>
+        <img draggable="false" alt="empathy maps" className="full-width-img" src="./media/combinedEmpathyMap.jpg"></img>
         <div id="interview2" className="piece">
             <h1 className="title">Interview Process</h1>
             <p className="copy">After confirming and scheduling the interviews, tasks were conducted to ensure the smooth operation and analysis of the interview,</p>
             <div className="process">
                 <h2 className="process__title">Interview Guide</h2>
-                <p className="copy">An interview guide was created to aid us in the process and to make sure we were asking points we determined were important beforehand.</p>
+                <p className="copy">An interview guide was created to aid us in the process and to make sure we were asking about points we determined were important beforehand.</p>
                 <Visual>
                     <p className="credit">Interview discussion guide</p>
-                    <img alt="Interview discussion guide" className="process__img" src="./media/discussion.png" />
+                    <img draggable="false" alt="Interview discussion guide" className="process__img" src="./media/discussion.png" />
                 </Visual>
             </div>
             <div className="process">
@@ -312,12 +312,12 @@ const present = () => (
                 <p className="copy">An interview guide was created to aid us in the process and to make sure we were asking points we determined were important beforehand.</p>
                 <Visual>
                     <p className="credit">Transcription within the <a className="copy-link" href="https://www.descript.com" target="_blank" rel="noopener noreferrer">Descript</a> interface. </p>
-                    <img alt="Transcription within the descript interface" className="process__img" src="./media/transcribing.png" />
+                    <img draggable="false" alt="Transcription within the descript interface" className="process__img" src="./media/transcribing.png" />
                 </Visual>
             </div>
             <div className="process">
                 <h2 className="process__title">Inductive Coding</h2>
-                <p className="copy">After reading through the transcripts, we found <strong>nine categories</strong> to group our research into.</p>
+                <p className="copy">After reading through the transcripts, we found <strong>nine categories</strong> to group transribed interview responses into.</p>
                 <Visual>
                     <div className="process__words">
                         <p className="process__word">Usage</p>
@@ -334,7 +334,7 @@ const present = () => (
                 <p className="copy">After bringing the transcription into a data sheet, important takeaways were then grouped under these categories.</p>
                 <Visual>
                     <p className="credit">Inductive coding data sheet</p>
-                    <img alt="inductive coding data sheet" className="process__img" src="./media/inductive.png" />
+                    <img draggable="false" alt="inductive coding data sheet" className="process__img" src="./media/inductive.png" />
                 </Visual>
             </div>
             <div className="process">
@@ -342,7 +342,7 @@ const present = () => (
                 <p className="copy">After breaking each interview down, information was grouped into a conceptually clustered data sheet, where the trends and significant points become clear.</p>
                 <Visual>
                     <p className="credit">Data groups after inductive coding</p>
-                    <img alt="Data groups after inductive coding" className="process__img" src="./media/conceptcluster.png" />
+                    <img draggable="false" alt="Data groups after inductive coding" className="process__img" src="./media/conceptcluster.png" />
                 </Visual>
             </div>
         </div>
@@ -350,7 +350,7 @@ const present = () => (
             <h1 className="title">Desirability Survey</h1>
         </div> */}
         <p className="credit">Photo by h heyerlein on Unsplash</p>
-        <img alt="" className="full-width-img" src="./media/face.jpg"></img>
+        <img draggable="false" alt="" className="full-width-img" src="./media/face.jpg"></img>
         <div id="recommendations" className="piece">
             <h1 className="title">Recommendations</h1>
             <p className="copy">To create a platform that prioritizes meaningful connections, these are our top recommendations for the potential platform:</p>
