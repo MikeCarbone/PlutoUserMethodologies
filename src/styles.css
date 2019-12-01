@@ -71,17 +71,32 @@ footer a {
     font-weight: bold;
 }
 
+.logo {
+    display: block;
+    margin: 50px auto 0 auto;
+    width: 65%;
+}
+
 .subtitle {
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: normal;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
 }
 
 .copy {
     font-size: 1.5rem;
     font-weight: lighter;
     line-height: 1.6;
-    margin: 25px 8px;
+    margin: 25px 9px;
     max-width: 800px;
+}
+
+.title-copy {
+    font-size: .9rem;
+    text-align: center;
+    margin: 50px auto 0 auto;
 }
 
 .stat-copy {
@@ -114,6 +129,11 @@ footer a {
 .finding-svg {
     height: 100px;
     width: 250px;
+    margin: 25px auto;
+}
+
+.recommendation-svg {
+    width: 75%;
     margin: 25px auto;
 }
 
@@ -275,6 +295,11 @@ footer a {
     margin: 50px auto;
 }
 
+.people-figures-3 {
+    width: 100%;
+    margin: 50px auto;
+}
+
 .people-figures-2 svg {
     width: 15%;
 }
@@ -286,4 +311,173 @@ footer a {
 
 .big-number {
     font-size: 8rem;
+}
+
+.process {
+    margin: 150px auto 200px auto;
+}
+
+.process__title {
+    font-size: 4.5rem;
+    margin: 0 0 0 8px;
+}
+
+.process__img {
+    box-shadow: 0px -3px 12px -9px #dbdbdb;
+    display: block;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.process a {
+    color: black;
+}
+
+.process__words {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 150px auto 200px auto;
+}
+
+.process__word {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin: 15px 0;
+    text-align: center;
+    padding: 15px;
+    width: 33%;
+}
+
+.recommendation__title {
+    font-size: 4.5rem;
+}
+
+@media screen and (max-width: 800px) {
+
+    header ul {
+        flex-wrap: wrap;
+    }
+
+    header li {
+        margin: 5px 0;
+    }
+
+    header a {
+        font-size: .85rem;
+        border-bottom: 1px solid #ababab;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 1.7rem;
+        word-wrap: break-word;
+    }
+
+    .recommendation__title {
+        font-size: 1.7rem;
+        word-wrap: break-word;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+        margin: 25px auto;
+        width: 100%;
+    }
+
+    .piece {
+        padding: 25px 15px;
+    }
+
+    .finding__title {
+        font-size: 1.5rem;
+    }
+
+    .finding-svg {
+        height: 150px;
+        margin: 0 auto;
+        width: 75px;
+    }
+
+    .copy {
+        font-size: 1rem;
+        margin: 25px 2px;
+    }
+
+    .title-copy {
+        font-size: .75rem;
+    }
+
+    .people-figures-1 {
+        margin: 50px auto 0 auto;
+    }
+
+    .people-figures-1 svg {
+        width: 10%;
+    }
+
+    .counter {
+        font-size: 5rem;
+    }
+
+    .stat-copy {
+        font-size: 1rem;
+        margin: 0 auto 25px auto;
+        margin-left: 0;
+    }
+
+    .big-number {
+        font-size: 4rem;
+    }
+
+    .process__title {
+        font-size: 1.5rem;
+    }
+
+    .process__img {
+        width: 100%;
+    }
+
+    .process__word {
+        font-size: 1rem;
+        font-weight: normal;
+        width: 50%;
+        margin: 0;
+    }
+
+    .finding__copy {
+        font-size: 1rem;
+    }
+
+    .piece {
+        min-height: 450px;
+    }
+
+    .bigtext {
+        font-size: 4rem;
+    }
+
+    .process__words {
+        margin: 50px auto;
+    }
+
+    footer p {
+        font-size: .75rem;
+        margin: 15px auto;
+    }
+
+    .biglink {
+        font-size: 1rem;
+        margin: 25px 0 25px 2px;
+    }
+
+    .full-width-img {
+        object-fit: cover;
+        object-position: center;
+        height: 120vh;
+    }
+
 }
