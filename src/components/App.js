@@ -33,7 +33,8 @@ const present = () => (
         <div className="piece">
             <img draggable="false" className="logo" src="./media/plutoLogo.png" alt="Pluto" />
             <h2 className="subtitle">Concept Validation & Target Audience Understanding Through User Research</h2>
-            <p className="copy title-copy">Pennoni Honors College Submission for IDM-417, Drexel University 2019</p>
+            <p className="copy title-copy">IDM-417 User Research Methodologies</p>
+            <p className="copy title-copy">Pennoni Honors College | Drexel University 2019</p>
         </div>
         <div id="background" className="piece">
             <h1 className="title">Background</h1>
@@ -384,7 +385,8 @@ const present = () => (
         </div>
         <footer>
             <p>Created by <a href="https://twitter.com/carbnology">Mike Carbone</a></p>
-            <p>Pennoni Honors College Submission for IDM-417, Drexel University 2019</p>
+            <p>IDM-417 User Research Methodologies</p>
+            <p>Pennoni Honors College | Drexel University 2019</p>
         </footer>
     </>
 );
