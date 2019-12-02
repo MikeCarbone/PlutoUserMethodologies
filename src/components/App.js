@@ -32,7 +32,7 @@ const present = () => (
         </Headroom>
         <div className="piece">
             <img draggable="false" className="logo" src="./media/plutoLogo.png" alt="Pluto" />
-            <h2 className="subtitle">Concept Validation & Feature Determination Through User Research</h2>
+            <h2 className="subtitle">Concept Validation & Target Audience Understanding Through User Research</h2>
             <p className="copy title-copy">Pennoni Honors College Submission for IDM-417, Drexel University 2019</p>
         </div>
         <div id="background" className="piece">
