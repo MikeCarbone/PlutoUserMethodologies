@@ -10,73 +10,85 @@ const present = () => (
         <Headroom>
             <header>
                 <nav>
-                    <ul>
-                        <li>
-                            <a href="#background">Background</a>
-                        </li>
-                        <li>
-                            <a href="#thesis">Thesis</a>
-                        </li>
-                        <li>
-                            <a href="#findings">Key Findings</a>
-                        </li>
-                        <li>
-                            <a href="#methodologies">Methodologies</a>
-                        </li>
-                        <li>
-                            <a href="#recommendations">Recommendations</a>
-                        </li>
-                    </ul>
+                    <div className="piece-container">
+                        <ul>
+                            <li>
+                                <a href="#background">Background</a>
+                            </li>
+                            <li>
+                                <a href="#thesis">Thesis</a>
+                            </li>
+                            <li>
+                                <a href="#findings">Key Findings</a>
+                            </li>
+                            <li>
+                                <a href="#methodologies">Methodologies</a>
+                            </li>
+                            <li>
+                                <a href="#recommendations">Recommendations</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </header>
         </Headroom>
         <div className="piece">
-            <img draggable="false" className="logo" src="./media/plutoLogo.png" alt="Pluto" />
-            <h2 className="subtitle">Concept Validation & Target Audience Understanding Through User Research</h2>
-            <p className="copy title-copy">IDM-417 User Research Methodologies</p>
-            <p className="copy title-copy">Pennoni Honors College | Drexel University 2019</p>
+            <div className="intro-container">
+                <img draggable="false" className="logo" src="./media/plutoLogo.png" alt="Pluto" />
+                <h2 className="subtitle">Concept Validation & Target Audience Understanding Through User Research</h2>
+                <p className="copy title-copy">IDM-417 User Research Methodologies</p>
+                <p className="copy title-copy">Pennoni Honors College | Drexel University 2019</p>
+            </div>
         </div>
         <div id="background" className="piece">
-            <h1 className="title">Background</h1>
-            <p className="copy">Pluto is an experimental social network that focuses on fostering meaningful connections. This raises two fundamental questions: What is a meaningful connection, and how can we foster them? For this reason, Pluto must identify what features will best accomplish this goal and ultimately create an engaging platform for our users.</p>
+            <div className="piece-container">
+                <h1 className="title">Background</h1>
+                <p className="copy">Pluto is an experimental social network that focuses on fostering meaningful connections. This raises two fundamental questions: What is a meaningful connection, and how can we foster them? For this reason, Pluto must identify what features will best accomplish this goal and ultimately create an engaging platform for our users.</p>
+            </div>
         </div>
         <div id="thesis" className="piece">
-            <h1 className="title">Thesis</h1>
-            <p className="copy">We believe that creating a social network that prioritizes exclusively meaningful connections while giving users a platform that strengthens close relationships with an increased sense of privacy and security, will achieve the unintruded continuation of their relationship better than existing platforms.</p>
+            <div className="piece-container">
+                <h1 className="title">Thesis</h1>
+                <p className="copy">We believe that creating a social network that prioritizes exclusively meaningful connections while giving users a platform that strengthens close relationships with an increased sense of privacy and security, will achieve the unintruded continuation of their relationship better than existing platforms.</p>
+            </div>
         </div>
         <div id="findings" className="piece">
-            <h1 className="title">Key Findings</h1>
-            <p className="copy">These are the biggest discoveries from our research.</p>
-            <div className="finding">
-                <h2 className="finding__title">Meaning = Repeated Engagement</h2>
-                <div className="finding-svg">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exchange-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z"></path></svg>
+            <div className="piece-container">
+                <h1 className="title">Key Findings</h1>
+                <p className="copy">These are the biggest discoveries from our research.</p>
+                <div className="finding">
+                    <h2 className="finding__title">Meaning = Repeated Engagement</h2>
+                    <div className="finding-svg">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exchange-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z"></path></svg>
+                    </div>
+                    <p className="finding__copy">The most meaningful online connections are formed around repeated engagement through anything that most closely resembles face-to-face interaction.</p>
                 </div>
-                <p className="finding__copy">The most meaningful online connections are formed around repeated engagement through anything that most closely resembles face-to-face interaction.</p>
-            </div>
-            <div className="finding">
-                <h2 className="finding__title">Who's Watching Matters</h2>
-                <div className="finding-svg">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="eye" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"></path></svg>
+                <div className="finding">
+                    <h2 className="finding__title">Who's Watching Matters</h2>
+                    <div className="finding-svg">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="eye" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"></path></svg>
+                    </div>
+                    <p className="finding__copy">Choosing who can see your content is a big factor in feeling private when posting, and would foster more sharing.</p>
                 </div>
-                <p className="finding__copy">Choosing who can see your content is a big factor in feeling private when posting, and would foster more sharing.</p>
-            </div>
-            <div className="finding">
-                <h2 className="finding__title">Ownership Incites Sharing</h2>
-                <div className="finding-svg">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-lock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128zm96 64a63.08 63.08 0 0 1 8.1-30.5c-4.8-.5-9.5-1.5-14.5-1.5h-16.7a174.08 174.08 0 0 1-145.8 0h-16.7A134.43 134.43 0 0 0 0 422.4V464a48 48 0 0 0 48 48h280.9a63.54 63.54 0 0 1-8.9-32zm288-32h-32v-80a80 80 0 0 0-160 0v80h-32a32 32 0 0 0-32 32v160a32 32 0 0 0 32 32h224a32 32 0 0 0 32-32V320a32 32 0 0 0-32-32zM496 432a32 32 0 1 1 32-32 32 32 0 0 1-32 32zm32-144h-64v-80a32 32 0 0 1 64 0z"></path></svg>
+                <div className="finding">
+                    <h2 className="finding__title">Ownership Incites Sharing</h2>
+                    <div className="finding-svg">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-lock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128zm96 64a63.08 63.08 0 0 1 8.1-30.5c-4.8-.5-9.5-1.5-14.5-1.5h-16.7a174.08 174.08 0 0 1-145.8 0h-16.7A134.43 134.43 0 0 0 0 422.4V464a48 48 0 0 0 48 48h280.9a63.54 63.54 0 0 1-8.9-32zm288-32h-32v-80a80 80 0 0 0-160 0v80h-32a32 32 0 0 0-32 32v160a32 32 0 0 0 32 32h224a32 32 0 0 0 32-32V320a32 32 0 0 0-32-32zM496 432a32 32 0 1 1 32-32 32 32 0 0 1-32 32zm32-144h-64v-80a32 32 0 0 1 64 0z"></path></svg>
+                    </div>
+                    <p className="finding__copy">Users do not like thinking that their content might be shared elsewhere or may be “owned” by the company.</p>
                 </div>
-                <p className="finding__copy">Users do not like thinking that their content might be shared elsewhere or may be “owned” by the company.</p>
             </div>
         </div>
         <div id="methodologies" className="piece">
-            <h1 className="title">Methodologies</h1>
-            <p className="copy">Various methods were used to gather data from potential users:</p>
-            <a className="biglink" href="#audience">Target Audience</a>
-            <a className="biglink" href="#screener">Screener Survery</a>
-            <a className="biglink" href="#survey">Second Survery</a>
-            <a className="biglink" href="#iliwwi">I Like, I Want, What if?</a>
-            <a className="biglink" href="#interview1">Interviews</a>
+            <div className="piece-container">
+                <h1 className="title">Methodologies</h1>
+                <p className="copy">Various methods were used to gather data from potential users:</p>
+                <a className="biglink" href="#audience">Target Audience</a>
+                <a className="biglink" href="#screener">Screener Survery</a>
+                <a className="biglink" href="#survey">Second Survery</a>
+                <a className="biglink" href="#iliwwi">I Like, I Want, What if?</a>
+                <a className="biglink" href="#interview1">Interviews</a>
+            </div>
         </div>
         <p className="credit">Photo by Rob Curran on Unsplash</p>
         <img draggable="false" alt="crowd of people" className="full-width-img" src="./media/people.jpg"></img>
