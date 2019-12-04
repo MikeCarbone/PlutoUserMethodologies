@@ -52,6 +52,8 @@ footer a {
     color: black;
 }
 
+
+
 .credit {
     background-color: #FFFFFF;
     font-size: .75rem;
@@ -64,6 +66,11 @@ footer a {
     background-color: white;
     min-height: 900px;
     padding: 25px 50px;
+}
+
+.piece-container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .title {
